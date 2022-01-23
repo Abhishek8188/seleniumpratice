@@ -14,8 +14,9 @@ public class seleniumscript {
 		Thread.sleep(3000);
 		driver.quit();
 		//driver.close();
-		
 		driver.getTitle();
+		
+		driver.getCurrentUrl();
 
 	}
 
